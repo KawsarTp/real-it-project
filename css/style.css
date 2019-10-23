@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+abbr{
+	text-decoration: none;
+}
+.custom-navbar{
+	background: #78C3D6;
+	border:none;
+	border-radius: unset;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.custom-navbar .navbar-header img{
+	position: relative;
+	width: 100px;
+	bottom:26px;
+}
+.custom-navbar .nav li a{
+	color: #ffffff;
+}
+
+.custom-navbar .nav li a:hover{
+	color: #ffffff;
+	background: #ff7133;
+}
+
+.custom-carousel{
+	margin-top: 90px;
+}
+.custom-navbar .navbar-nav .dropdown .custom-dropdown {
+	background-color: #78C3D6;
+
+}
+
+.carousel-inner .item img{
+	width:100%;
+}
+
+.service-section h1{
+	text-align: center;
+}
+.service-section h1::after{
+	content: "";
+    position: relative;
+    width: 300px;
+    height: 2px;
+    background-color: #f17411;
+    left:50px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10px;
+
+}
+
+.service{
+	font-size: 14px;
+	text-align: justify;
+}
+
+.service h3{
+	text-align: center;
+}
+
+
+
+.footer{
+	background:#78C3D6;
+	padding: 20px; 
+  clear: both;
+}
+
+.footer p{
+	font-weight: 700;
+}
+
+
+.product{
+  margin-top:100px;
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+    min-height:700px;
+    width: 200px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    border-bottom:1px solid rgba(.1,.1,.1,.9);
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+    .thumbnail{
+        padding: 15px;
+    }
+
+    #owl-demo .item{
+      margin: 3px;
+    }
+    #owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+#owl-demo .item p{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#owl-demo .item a{
+    text-decoration: none;
+    background:#ea930d;
+    color: #ffffff;
+    padding: 10px;
+    text-align:center;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+/*Nafis*/
+
+
+
+
+/*========= 3rd page  Start=============*/
+
+
+
+.wrapper{
+width: 100%;
+margin: 47px auto;}
+
+.box{
+    border: 2px solid #DFDFDF;
+}
+
+.box h3{
+    margin-top: 5px;
+    border-bottom: 2px solid #DFDFDF;
+    background-color: #F7F7F7;
+    padding-bottom: 5px;
+}
+
+.box img{
+    width:240px;
+    height:150px;
+}
+
+
+.box h2{
+    border-top: 2px solid #DFDFDF;
+    color: orange;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box{
+    width:250px;
+    float:left;
+    margin-right:30px;
+}
+
+.nomrgn{
+    margin-right: 0px;
+}
+
+.box a{
+    text-decoration:none;
+    background-color:orange;
+    color:red;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    margin-top:5px;
+    padding:3px 0;    
+    transition:all 1s ease;
+}
+.box a:hover{
+    background:#000;
+    color:#fff;
+}
+
+
+
+/*=========   Start=============*/
+.product-wrapper{
+  margin: 100px auto;
+
+}
+.product-wrapper1{
+  margin-bottom: 10px;
+}
+.product-wrapper1 h3{
+  font-size: 15px;
+}
+.product-wrapper .roduct-box{
+  margin-top: 50px;
+}
+
+.roduct-box.technical-description{
+  text-align: justify;
+}
+
+/*========= 3rd page  Start=============*/
+
+/*==============right Side Start ======================*/
+.wrapper1{
+  float: right;
+  width: 100%;
+ margin: 0px auto;}
+.wrapper2{
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 0;
+  
+}
+.wrap{
+margin-top: -180px;
+}
+.row2 {
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+.box1{
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+.box1 h3{
+    margin-top: 0px;
+    border-bottom: 2px solid #DFDFDF;
+    background-color: #D7E8EA;
+    padding-bottom: 5px;
+}
+
+.box1 img{
+    width:150px;
+    height:100px;
+}
+
+
+.box1 h4{
+    border-top: 1px solid #DFDFDF;
+    color: orange;
+    text-align: center;
+}
+
+.box1 p {
+    text-align: center;
+}
+
+.box1{
+    width:152px;
+ 
+    margin-right:0px;
+}
+
+
+
+.box1 a{
+    text-decoration:none;
+    background-color: #DBDEE3;
+    color: #000;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    margin-top:5px;
+    padding:3px 0;    
+    transition:all 1s ease;
+}
+.box1 a:hover{
+    background:#000;
+    color:#fff;
+    border-radius: 2px;
+}
+
+/*==============right Side End ======================*/
+
+/*============== 3rd page End ======================*/
+
+/*----------------------------------------------------------------------------------------*/
+/*============== User Profilr page start ======================*/
+ 
+.col-1{ width: 8.33%}
+.col-2{ width: 16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+
+[class*='col-']{
+    float: left;
+    box-sizing: border-box;
+    
+   
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+    
+}
+ .user-profile h2{
+    margin-top: 100px;
+    text-align: center;
+ }
+ .userinfo{
+    margin-left: 50px;
+ }
+.reply-table{
+    margin-left: 100px;
+}
+.reply-table p{
+    margin-left: 100px;
+}
+.containt-height{
+    height: 300px;
+}
+.containt-height table{
+   margin-top: 10px;  
+   width: 900px
+}
+
+.containt-height table td,th{
+    border: 1px solid;
+    padding: 10px;
+}
+.containt-height .inbox{
+    font-size: 20px;
+
+}
+/*============== User Profilr page End ======================*/
+
+
+.quotation{
+    margin-top: 100px;
+}
+
+
+.modal-header, h5, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
